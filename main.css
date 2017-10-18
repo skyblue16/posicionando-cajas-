@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+    /*Le daremos estos valores a body asi limpiamos nuestro archivo y nada nos afectara nuestro código*/
+}
+.caja-contenedor{
+	width: 300px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 300px;
+    position: relative;
+    background-color: #11F344;
+    z-index: -1;
+    top: 20px;
+    left: 500px;
+}
+
+.cuadrado{
+	position: relative;
+	width: 150px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 150px;
+    background-color: orange;
+    left: 75px;
+    top: 80px;
+}
+.cuadradito{
+	position: relative;
+	width: 70px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 70px;
+    background-color: blue;
+    left: 75px;
+    top: -70px;
+}
+.base2{
+	width: 300px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 300px;
+    position: relative; 
+    background-color: blue;
+    top:90px;
+    left:0px;
+}
+.cuadrado2{
+    position: relative;
+	width: 150px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 150px;
+    background-color: orange;
+    left: 75px;
+    top: -130px;
+}
+.cuadradito2{
+	position: relative;
+	width: 70px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 70px;
+    background-color: yellow;
+    left: 75px;
+    top: -279px;
+}
